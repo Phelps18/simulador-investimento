@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources/features/simulador.feature", 
 		glue = "stepDefinitions", 
-		plugin = {"pretty", "html:target/report-html"},
+		plugin = {"pretty", "html:src/test/resources/report/report-html"},
 		monochrome = true,
 		snippets = SnippetType.CAMELCASE,
 		dryRun = false,

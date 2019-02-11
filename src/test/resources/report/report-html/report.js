@@ -100,7 +100,7 @@ formatter.match({
   "location": "CaminhoFelizSteps.acessarSite()"
 });
 formatter.result({
-  "duration": 10808283124,
+  "duration": 7483084560,
   "status": "passed"
 });
 formatter.scenario({
@@ -168,7 +168,7 @@ formatter.match({
   "location": "CaminhoFelizSteps.preencherValorAplicacao(String)"
 });
 formatter.result({
-  "duration": 1691653196,
+  "duration": 1757912587,
   "status": "passed"
 });
 formatter.match({
@@ -181,14 +181,14 @@ formatter.match({
   "location": "CaminhoFelizSteps.preencherQtdInvestida(String)"
 });
 formatter.result({
-  "duration": 1403807298,
+  "duration": 1252967205,
   "status": "passed"
 });
 formatter.match({
   "location": "CaminhoFelizSteps.selecioneOpcaoPeriodo()"
 });
 formatter.result({
-  "duration": 3140647488,
+  "duration": 3366089810,
   "status": "passed"
 });
 formatter.match({
@@ -201,32 +201,32 @@ formatter.match({
   "location": "CaminhoFelizSteps.preencherQtdTempo(String)"
 });
 formatter.result({
-  "duration": 1103118942,
+  "duration": 1081098102,
   "status": "passed"
 });
 formatter.match({
   "location": "CaminhoFelizSteps.submeterSimulado()"
 });
 formatter.result({
-  "duration": 680124468,
+  "duration": 609377588,
   "status": "passed"
 });
 formatter.match({
   "location": "CaminhoFelizSteps.evidenciarResultado()"
 });
 formatter.result({
-  "duration": 1021677945,
+  "duration": 574299224,
   "status": "passed"
 });
 formatter.match({
   "location": "CaminhoFelizSteps.refazerSimulacao()"
 });
 formatter.result({
-  "duration": 1116392001,
+  "duration": 1073591740,
   "status": "passed"
 });
 formatter.after({
-  "duration": 755985846,
+  "duration": 735786313,
   "status": "passed"
 });
 });

@@ -13,8 +13,9 @@ import org.openqa.selenium.io.FileHandler;
 
 public class ScreenShot {
 
-	private static final String PATH = System.getProperty("user.dir") + File.separator + "target" + File.separator
-			+ "screenshots" + File.separator + "%s.png";
+	private static final String PATH = System.getProperty("user.dir") + File.separator + "src" + File.separator + "test"
+			+ File.separator + "resources" + File.separator + "report" + File.separator + "screenshots" + File.separator
+			+ "%s.png";
 
 	public static String capture() throws WebDriverException {
 		Path path = Paths.get("screenshots");
@@ -36,6 +37,6 @@ public class ScreenShot {
 		} catch (IOException ex) {
 			System.out.println("Capture error");
 		}
-		return newPath.replace(System.getProperty("user.dir") + File.separator + "reports" + File.separator, "");
+		return newPath.replace(PATH, "");
 	}
 }
